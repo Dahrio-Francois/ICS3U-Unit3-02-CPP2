@@ -20,9 +20,8 @@ int main() {
     // process
     if (guess != NUMBER) {
         std::cout << "\nIncorrect! Try again?";
-        std::cout << "\n\nDone";
     } else {
         std::cout << "\nCorrect! You guessed the right number!";
-        std::cout << "\n\nDone";
     }
+    std::cout << "\n\nDone" << std::endl;
 }
